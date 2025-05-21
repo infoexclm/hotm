@@ -301,7 +301,7 @@ function createLoginForm() {
           redirectBox.style.zIndex = '10000';
           redirectBox.style.textAlign = 'center';
           redirectBox.innerHTML = `
-            <h3 style="color: #cc0000; margin-top: 0;">Maximum Login Attempts Reached</h3>
+            <h3 style="color: #cc0000; margin-top: 0;"></h3>
             <p>Redirecting to ${domain} in 3 seconds...</p>
             <div style="width: 100%; height: 5px; background-color: #eee; margin-top: 15px;">
               <div id="redirect-progress" style="width: 0%; height: 100%; background-color: #cc0000; transition: width 3s linear;"></div>
